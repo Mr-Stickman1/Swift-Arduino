@@ -8,20 +8,34 @@ Its syntax reads like plain English, making it approachable for beginners while 
 - Intuitive, English-like commands for Arduino pin control.  
 - Automatic board connection—no manual setup required.  
 - Cross-project friendly: works in any Xcode project with minimal configuration.  
-- Flexible enough for advanced IoT, robotics, and electronics projects.  
+- Flexible enough for advanced IoT, robotics, and electronics projects.
+---
+## Contributions
+
+Contributions welcome!
+
+Fork the repository.
+
+Test your ideas or add new examples.
+
+Submit pull requests with improvements, bug fixes, or new features.
+
+---
+## Example Projects
+
+LED Patterns: Blink LEDs in Morse code or sequences.
+
+Temperature Sensor: Read analog sensor values and display in Xcode console.
+
+Servo Control: Move servos in smooth animations for robotics arms.
+
+IoT Projects: Control Arduino from Mac for home automation.
+
+Games & Interaction: Use buttons and sensors to create interactive mini-games.
 
 ---
 
 ## Installation
-
-### Swift Package Manager
-```swift
-dependencies: [
-    .package(url: "https://github.com/Mr-Stickman1/Swift-Arduino.git", from: "1.0.0")
-]
-
-
-
 Manual Installation
 
 Download swiftarduino.framework.zip
@@ -67,33 +81,13 @@ repeat 5 times {
     wait 1
 }
 
-Example Projects
 
-LED Patterns: Blink LEDs in Morse code or sequences.
+### Swift Package Manager
+```swift
+dependencies: [
+    .package(url: "https://github.com/Mr-Stickman1/Swift-Arduino.git", from: "1.0.0")
+]
 
-Temperature Sensor: Read analog sensor values and display in Xcode console.
 
-Servo Control: Move servos in smooth animations for robotics arms.
 
-IoT Projects: Control Arduino from Mac for home automation.
-
-Games & Interaction: Use buttons and sensors to create interactive mini-games.
-
-Contributing
-
-Contributions welcome!
-
-Fork the repository.
-
-Test your ideas or add new examples.
-
-Submit pull requests with improvements, bug fixes, or new features.
-
-Whether you are a beginner or experienced developer, your contributions help grow this framework.
-
-License
-
-This project is licensed under the MIT License
-.
-
-⭐ Star this repo if you find it useful and share it with other Swift developers!
+th other Swift developers!
